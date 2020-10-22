@@ -1,0 +1,24 @@
+
+.validate_text {
+    font-size: 16px;
+    display: flex;
+    justify-content: left;
+    margin-left: 70px;
+    margin-top: 20px;
+
+}
+
+.validate_input {
+    height: 30px;
+    width:300px;
+    padding:10px;
+    border-radius:10px;
+    border: 0.5px solid lightgrey;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.error_text {
+    color: maroon;
+    margin-top: 0;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,9 @@
+.App {
+  margin: auto;
+  max-width: 1128px;
+  background: aliceblue;
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}

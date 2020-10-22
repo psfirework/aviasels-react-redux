@@ -1,0 +1,40 @@
+
+button {
+    width: 33.3%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #d2d5d6;
+    border-radius: 3px;
+    color: #2196f3;
+    font-family: Open Sans, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+
+button:hover {
+    background-color: #f2fcff;
+    color: #2196f3;
+}
+button:focus {
+    background-color: #2196f3;
+    color:#fff;
+}
+
+.btn_active {
+    background-color: #2196f3;
+    border: 1px solid #64b5f5;
+    color: #fff;
+}
+
+.btn_active:focus {
+    background-color: #2196f3;
+    border: 1px solid #64b5f5;
+    color: #fff;
+}
+.btn_active:hover {
+    background-color: #2196f3;
+    border: 1px solid #64b5f5;
+    color: #fff;
+}

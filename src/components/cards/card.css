@@ -1,0 +1,117 @@
+.wrapper {
+    margin: 30px auto;
+    display: flex;
+    box-shadow: 0px 1px 4px rgba(91, 137, 164, 0.25);
+    border-radius: 5px;
+}
+
+.ticket {
+    width: 600px;
+    background-color: white;
+    border-radius: 5px;
+    min-height: 160px;
+    padding-left: 20px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.left {
+    margin-right: 30px;
+}
+
+.logo {
+    width: 120px;
+    height: 35px;
+    background: url("images/turkish.png") center center/cover no-repeat;
+    margin: 20px 30px;
+
+}
+
+.buy_button {
+    width: 160px;
+    height: 56px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff6d00;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.1), 0px 1px 0px #d64d08;
+    border-radius: 5px;
+    padding: 5px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color, box-shadow 0.15s;
+}
+
+.buy_button:focus {
+    padding: 5px 0;
+    box-shadow: 0 0 0 3px #2196f3;
+}
+
+.buy_button:hover {
+    background-color: #ff8124;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25), 0px 1px 0px #f7661d;
+}
+.buy_button:hover:focus {
+    padding: 5px 0;
+    box-shadow: 0 0 0 3px #2196f3;
+}
+.buy_button:active {
+    background-color: #ed7a18;
+}
+
+.buy_button_text {
+    font-family: Open Sans, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.departure,
+.stops,
+.arrival {
+    margin-top: 40px;
+}
+
+.departure_time{
+    font-family: Open Sans, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: normal;
+    text-align: center;
+}
+.departure_text {
+    font-family: Open Sans, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+}
+
+.plane {
+    width: 117px;
+    height: 15px;
+    background: url("images/image.png") center center/cover no-repeat;
+}
+
+.numStops {
+    font-family: Open Sans, sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: lightgray;
+    line-height: normal;
+    text-align: center;
+}
+
+.swal-button {
+    padding: 7px 19px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #d2d5d6;
+    border-radius: 5px;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}

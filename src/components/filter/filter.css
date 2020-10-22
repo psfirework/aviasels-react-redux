@@ -1,0 +1,38 @@
+.filter {
+    margin: 30px 30px;
+    width: 290px;
+    background-color: #fff;
+    box-shadow: 0px 1px 4px rgba(91, 137, 164, 0.25);
+    border-radius: 5px;
+    height: 350px;
+    text-align: start;
+}
+
+.money_block {
+    margin: 20px 20px;
+}
+.check_stops {
+    margin: 20px 20px;
+}
+
+.money,
+.stops_text  {
+    font-family: Open Sans, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: #4a4a4a;
+}
+
+form {
+    font-family: Open Sans, sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #4a4a4a;
+
+}
+
+
